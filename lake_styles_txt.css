@@ -1,0 +1,137 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: 
+   Date:   
+   
+   Filename: lake_styles.css
+
+*/
+
+@font-face {
+   font-family: 'CAC Champagne';
+   src: url('cac_champagne.ttf');
+}
+
+@font-face {
+   font-family: 'Dobkin';
+   src: url('DobkinPlain.ttf');
+}
+
+body {
+   background-color: #fbff00;
+}
+
+.header {
+   background-color: #7d4583;
+}
+
+.header ul li a {
+   display: inline;
+   width: auto;
+   height: 38px;
+   line-height: 38px;
+   text-decoration: none;
+   color: #fff;
+   margin: 0 27px;
+}
+
+#leftcol {
+   background-color: #000000;
+}
+
+.Welcome {
+   color: #ffffff;
+   display: inline;
+   font-family: "CAC Champagne";
+   font-size: 70px;
+   font-weight: 400;
+   padding: 13px 6px;
+
+}
+
+#leftcol p {
+   color: #ffffff;
+   padding: 11px 18px;
+
+}
+
+#leftside {
+   background-color: #945c46;
+}
+
+#leftside h1 {
+   display: inline;
+   padding: 20px 118px;
+   color: #ffffff;
+}
+
+#leftside ul li {
+   font-size: 13px;
+   color: #ffffff;
+   padding-top: 20px;
+   padding-left: 6px;
+   padding-right: 26px;
+}
+
+#leftside ul li a {
+
+   color: #e4b0b4;
+}
+
+#rightside {
+   background-color: #918349;
+   color: #fff;
+}
+
+#rightside h1 {
+   display: inline;
+   padding: 0px 60px;
+}
+
+#rightside p {
+   padding: 0px 15px;
+}
+
+#rightcol {
+   background-color: #5f0b6e;
+}
+
+#rightcol nav h2 {
+   font-family: "CAC Champagne";
+   font-size: 40px;
+   padding: 0 20px;
+   color: #fff;
+}
+
+#rightcol nav ul li a {
+   text-decoration: none;
+   color: #a794aa;
+}
+
+#rightcol nav ul li {
+   display: block;
+   padding: 0 15px;
+}
+
+.greet {
+   padding-top: 70px;
+   color: #ceb4da;
+   font-size: 20px;
+}
+
+.greet strong {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 40px;
+}
+
+.ending {
+   background-color: #4c464d;
+   color: #efebe7;
+   height: 28px;
+   line-height: 28px;
+   text-align: center;
+}
